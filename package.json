@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -o -c-1",
+    "build": "jspm bundle src/main.js game-bundle.js --minify"
   },
   "author": "",
   "license": "ISC",
