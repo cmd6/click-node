@@ -3,5 +3,5 @@ npm install jspm --save-dev
 jspm init
 jspm install phaser
 
-git remote add origin https://github.com/mbcrump/SampleProject.git
+git remote add origin https://github.com/cmd6/click-node.git
 git push -u origin master
