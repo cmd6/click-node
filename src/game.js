@@ -9,7 +9,7 @@ import { Load } from './states/load';
 
 export class Game extends Phaser.Game{
 	constructor(){
-		super(800,600,Phaser.AUTO,'phaser-canvas',{create: () => {
+		super(800,600,Phaser.AUTO,null,{create: () => {
 			this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 			this.scale.pageAlignHorizontally = true;
 			this.scale.pageAlignVertically = true;
