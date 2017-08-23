@@ -11,6 +11,8 @@ export class Game extends Phaser.Game{
 	constructor(){
 		super(800,600,Phaser.AUTO,'phaser-canvas',{create: () => {
 			this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+			this.scale.pageAlignHorizontally = true;
+			this.scale.pageAlignVertically = true;
 
 			this.state.add('load',Load);
 			//this.state.add('menu', Menu);
